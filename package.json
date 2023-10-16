@@ -1,0 +1,20 @@
+{
+  "name": "geektrust",
+  "version": "1.0.0",
+  "description": "geektrust-project",
+  "scripts": {
+    "build": "tsc",
+    "install":"npm run build",
+    "start": "node dist/geektrust.js",
+    "test": "mocha"
+  },
+  "author": "geektrust",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.5"
+  }
+}
